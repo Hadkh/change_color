@@ -1,0 +1,28 @@
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#eee;
+    box-shadow: 2px 2px 15px rgba(0, 0,0, 0.3);
+}
+.list{
+    list-style: none;  
+}
+h1{ 
+    color: lightseagreen;
+    font-size: 30px;
+
+}
+ul li{
+    display:inline-block;
+    margin: 10PX;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: monospace;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
